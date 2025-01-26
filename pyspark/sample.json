@@ -1,0 +1,53 @@
+{
+    "bl_number": "BL123456",
+    "bl_date": "2023-11-22",
+    "trademark": "MyTrademark",
+    "observation": "General observation",
+    "net_weight_identifier": "KILO",
+    "gross_weight_identifier": "TONNE",
+    "container": [
+      "CONT123",
+      "CONT456"
+    ],
+    "product": "Product A",
+    "transport_observation": "Transport OK",
+    "certification_status": "Certified",
+    "certification_type": "ISO9001",
+    "certification_history": [
+      {
+        "action": "Issued",
+        "author": "John Doe",
+        "date": "2023-10-15"
+      }
+    ],
+    "correction_letter": [
+      "Letter1",
+      "Letter2"
+    ],
+    "origin": "API",
+    "certificate_number": "CERT1234",
+    "issue_date": "2023-12-01",
+    "invoice_number": "INV4567",
+    "transport": "Truck",
+    "loading_port": "Port A",
+    "country_of_origin": "Country A",
+    "destination_port": "Port B",
+    "country_of_destination": "Country B",
+    "net_weight": 1234.56,
+    "gross_weight": 2345.67,
+    "slaughter_date": [
+      "2023-11-15",
+      "2023-11-16"
+    ],
+    "processing_package_date": [
+      "2023-11-17",
+      "2023-11-18"
+    ],
+    "expiry_date": [
+      "2024-12-31",
+      "2025-01-01"
+    ],
+    "description_quantity": "100 units",
+    "eco_hash": "REPLACE_WITH_ACTUAL_HASH"
+  }
+  
