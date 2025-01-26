@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<H2>Cadastro de Musicas </H2>
+
+    <form action="{{ url_for('add_entry') }}" method="post" class="add-entry">
+      <dl>
+        <dt>Nome:
+        <dd><input type="text" size="30" name="name">
+        <dt>Artista:
+        <dd><input type="text" size="30" name="artist">
+        <dt>Album:
+        <dd><input type="text" size="30" name="album"> 
+        <dd><input type="submit" value="Cadastrar">
+      </dl>
+    </form>
+  <ul class="entries">
+  {% for entry in entries %}
+    <li><h2>{{ entry.name }}</h2>{{ entry.artist|safe }}
+  {% else %}
+    <li><em>Nada cadastrado, que pena!/em>
+  {% endfor %}
+  </ul>
+{% endblock %}
