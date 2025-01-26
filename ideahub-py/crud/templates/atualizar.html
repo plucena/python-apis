@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<title>Editar</title>
+	</head>
+	<body>
+		<h1>Editar</h1>
+		<hr>
+		<form action="" method="POST">
+			<table>
+				<tr>
+					<td>Nome</td>
+					<td><input type="text" name="nome" value="{{ pessoa.nome }}"></td>
+				</tr>
+				<tr>
+					<td>Empresa</td>
+					<td><input type="text" name="empresa" value="{{ pessoa.empresa }}"></td>
+				</tr>
+				<tr>
+					<td>CEP</td>
+					<td><input type="text" name="cep" value="{{ pessoa.cep }}"></td>
+				</tr>
+				<tr>
+					<td>Endereço</td>
+					<td><input type="text" name="endereco" value="{{ pessoa.endereco }}"></td>
+				</tr>
+				<tr>
+					<td>Telfone</td>
+					<td><input type="text" name="telefone" value="{{ pessoa.telefone }}"></td>
+				</tr>
+				<tr>
+					<td>E-mail</td>
+					<td><input type="text" name="email" value="{{ pessoa.email }}"></td>
+				</tr>
+			</table><br>
+			<input type="submit" value="Editar Dados">
+			</form>
+			<a href="/home">Voltar</a>
+	</body>
+</html>

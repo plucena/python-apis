@@ -1,0 +1,60 @@
+form .lform {
+  display: inline-block;
+  width: 100px;
+}
+select {
+	width: 60%;
+	float: right;
+	
+}
+textarea {
+	width: 60%;
+	
+}
+input{
+	
+}
+.jumbotron#topo{
+	font-size:12pt;
+	background:#135879;
+	border-radius: 0px;
+}
+
+.footer{
+	background: black;	
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+body#font{
+	font-family: Constantia;
+	font-weight: lighter;
+}
+body#cor{
+	font-family: Constantia;
+	font-weight: lighter;
+	background-color: #135879 !important;
+	
+}
+button{
+	margin-right: 100px;
+}
+img{
+	border-radius: 10px;
+}
+h2#cor{
+	color: white !important;
+	font-weight: bold;
+}
+label#cor{
+	color: white !important;
+	font-weight: lighter;
+}
+div#errologin{
+	font-weight: bold;
+	color: #00CD66;
+	font-size: 15px;
+}
+div#cabeTabela{
+	position: relative !important;
+}

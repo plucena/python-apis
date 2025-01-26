@@ -1,0 +1,10 @@
+SQLAlchemy==1.1.0
+Flask==0.11.1
+Flask-CLI==0.2.1
+Flask-Cors==2.1.2
+Flask-GoogleMaps==0.2.0
+Flask-SQLAlchemy==2.1
+Flask-WTF==0.12
+cf-deployment-tracker==1.0.2
+
+
