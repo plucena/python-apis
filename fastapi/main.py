@@ -49,3 +49,4 @@ def delete_item(item_id: int):
 @app.get("/items/")
 def list_items():
     return {"items": list(items.values())}
+
